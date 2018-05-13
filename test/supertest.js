@@ -48,6 +48,14 @@ describe('request(url)', function() {
   });
 });
 
+//Added this for checking the branching function...
+describe('This test is to demo the branching functions',()=>{
+
+  it('Should just print the console.log in the test..',()=>{
+    console.log('Sucess');
+  });
+});
+
 describe('request(app)', function() {
   it('should fire up the app on an ephemeral port', function(done) {
     var app = express();
